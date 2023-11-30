@@ -60,7 +60,7 @@ Azaz követelmények, elfogadási feltételek az order és place-order oldalhoz,
 
 A rendelhető ételek és áraik az alábbiak legyenek:  
 Baked Potato Jackets&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10 USD  
-Mexican Taco&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30 USD  
+Mexican Taco&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30 USD  
 Quesadillas Acapulco&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;39 USD  
 Tex Mex Chicken&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25 USD  
 Thai Chicken Chilly&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;39 USD  
