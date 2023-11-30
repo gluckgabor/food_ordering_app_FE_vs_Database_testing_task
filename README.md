@@ -43,6 +43,7 @@ If the test is successful, click "Finish."
 ***
 <br>
 # User Story title: Food order process
+
 Agile sentence: As a User, I would like to be able to order food, So as to have a wonderful customer experience
 
 Current userstory is to describe some of the requirements regarding the order and order details pages in order to implement the full food order process.
@@ -70,9 +71,11 @@ Végezzünk felfedező tesztelést (exploratory testing) és találjunk minél t
 A front-enden kapott adatokat vessük össze az adatbázisban található értékekkel. 
 Írjuk meg a megfelelő SQL lekérdezéseket, amelyek alátámasztják a talált hibákat.
 
-# "B" feladat: Írjunk (dokumentáljunk) pozitív és negatív teszteseteket (script based testing) is a fenti user story-ra és találjunk minél több hibát. (Legalább ötöt.)
+# "B" feladat: 
+Írjunk (dokumentáljunk) pozitív és negatív teszteseteket (script based testing) is a fenti user story-ra és találjunk minél több hibát. (Legalább ötöt.)
 
-# "C" feladat: Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
+# "C" feladat: 
+Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
 <br>
 <br>
 <br>
