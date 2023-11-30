@@ -19,10 +19,10 @@ milyen értékben rendeltek a vevők összesen?
 Írjunk (dokumentáljunk) pozitív és negatív teszteseteket (script based testing) is a fenti user story-ra és találjunk minél több hibát. (Legalább ötöt.)
 
 # "D" feladat:   
-<br>
-<br>
-Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
 
+Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
+<br>
+<br>
 Kövessük az alábbi angol nyelvű leírást a feladat előkészítéséhez, majd a lépések alatt találunk egy User Story-t, melyet fel kell dolgozunk a feladatok megoldásához.
 
 1. Clone git repo https://github.com/kaushikjadhav01/Online-Food-Ordering-Web-App.git
