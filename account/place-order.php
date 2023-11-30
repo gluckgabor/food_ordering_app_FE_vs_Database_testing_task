@@ -1,6 +1,7 @@
 <?php
 include 'includes/connect.php';
 include 'includes/wallet.php';
+$discount = 0;
 $total = 0;
 	if($_SESSION['customer_sid']==session_id())
 	{
@@ -86,11 +87,11 @@ $verified = $row['verified'];
 
 <body>
   <!-- Start Page Loading -->
-  <div id="loader-wrapper">
+  <!-- <div id="loader-wrapper">
       <div id="loader"></div>        
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
-  </div>
+  </div> -->
   <!-- End Page Loading -->
 
   <!-- //////////////////////////////////////////////////////////////////////////// -->
@@ -324,18 +325,46 @@ $verified = $row['verified'];
         </div>
     </li>';
 		$total = $total + $price;
+
+    if($total >= 50 && $total < 100){
+			$discount = 0.1*$total;
+		} elseif ($total >= 100){
+			$discount = 0.2*$total;
+		}
 	}
 	}
     echo '<li class="collection-item">
         <div class="row">
             <div class="col s7">
-                <p class="collections-title"> Total</p>
+                <p class="collections-title"> Total (without discount, if applies)</p>
             </div>
             <div class="col s2">
                 <span>&nbsp;</span>
             </div>
             <div class="col s3">
-                <span><strong>Rs. '.$total.'</strong></span>
+                <span><strong>Rs. '.(1.1*$total).'</strong></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s7">
+                <p class="collections-title"> Discount</p>
+            </div>
+            <div class="col s2">
+                <span>&nbsp;</span>
+            </div>
+            <div class="col s3">
+                <span><strong>Rs. '.$discount.'</strong></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s7">
+                <p class="collections-title"> Total (with discount included, if applies)</p>
+            </div>
+            <div class="col s2">
+                <span>&nbsp;</span>
+            </div>
+            <div class="col s3">
+                <span><strong>Rs. '.($total-$discount).'</strong></span>
             </div>
         </div>
     </li>';
@@ -369,8 +398,8 @@ $verified = $row['verified'];
   <footer class="page-footer">
     <div class="footer-copyright">
       <div class="container">
-        <span>Copyright © 2017 <a class="grey-text text-lighten-4" href="#" target="_blank">Students</a> All rights reserved.</span>
-        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="#">Students</a></span>
+        <span>Copyright © 2017 <a class="grey-text text-lighten-4" href="#" target="_blank"></a> All rights reserved.</span>
+        <span class="right">  <a class="grey-text text-lighten-4" href="#"></a></span>
         </div>
     </div>
   </footer>

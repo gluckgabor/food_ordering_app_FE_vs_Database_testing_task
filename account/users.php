@@ -77,13 +77,13 @@ include 'includes/connect.php';
 </head>
 
 <body>
-  <!-- Start Page Loading -->
+  <!-- Start Page Loading 
   <div id="loader-wrapper">
       <div id="loader"></div>        
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
   </div>
-  <!-- End Page Loading -->
+   End Page Loading -->
 
   <!-- //////////////////////////////////////////////////////////////////////////// -->
 
@@ -248,7 +248,7 @@ include 'includes/connect.php';
 						$wallet_id = $row1['id'];
 						$sql1 = mysqli_query($con,"SELECT * from wallet_details WHERE wallet_id = $wallet_id;");
 						if($row2 = mysqli_fetch_array($sql1)){
-							$balance = $row2['balance'];
+							$balance = 1.1*$row2['balance'];
 						}
 					}
 					echo '<td><label for="balance">Balance</label><input id="balance" name="'.$row['id'].'_balance" value="'.$balance.'" type="number" data-error=".errorTxt01"><div class="errorTxt01"></div></td></tr>'; 					
@@ -339,8 +339,8 @@ include 'includes/connect.php';
   <footer class="page-footer">
     <div class="footer-copyright">
       <div class="container">
-        <span>Copyright © 2017 <a class="grey-text text-lighten-4" href="#" target="_blank">Students</a> All rights reserved.</span>
-        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="#">Students</a></span>
+        <span>Copyright © 2017 <a class="grey-text text-lighten-4" href="#" target="_blank"></a> All rights reserved.</span>
+        <span class="right">  <a class="grey-text text-lighten-4" href="#"></a></span>
         </div>
     </div>
   </footer>

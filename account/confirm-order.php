@@ -63,13 +63,13 @@ if($continue){
 </head>
 
 <body>
-  <!-- Start Page Loading -->
+  <!-- Start Page Loading 
   <div id="loader-wrapper">
       <div id="loader"></div>        
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
   </div>
-  <!-- End Page Loading -->
+   End Page Loading -->
 
   <!-- //////////////////////////////////////////////////////////////////////////// -->
 
@@ -306,8 +306,8 @@ foreach ($_POST as $key => $value)
   <footer class="page-footer">
     <div class="footer-copyright">
       <div class="container">
-        <span>Copyright © 2017 <a class="grey-text text-lighten-4" href="#" target="_blank">Students</a> All rights reserved.</span>
-        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="#">Students</a></span>
+        <span>Copyright © 2017 <a class="grey-text text-lighten-4" href="#" target="_blank"></a> All rights reserved.</span>
+        <span class="right">  <a class="grey-text text-lighten-4" href="#"></a></span>
         </div>
     </div>
   </footer>

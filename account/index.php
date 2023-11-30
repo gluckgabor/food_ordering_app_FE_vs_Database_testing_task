@@ -80,11 +80,11 @@ include 'includes/wallet.php';
 
 <body>
   <!-- Start Page Loading -->
-  <div id="loader-wrapper">
+  <!--<div id="loader-wrapper">
       <div id="loader"></div>        
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
-  </div>
+  </div>-->
   <!-- End Page Loading -->
 
   <!-- //////////////////////////////////////////////////////////////////////////// -->
@@ -99,7 +99,7 @@ include 'includes/wallet.php';
                       <li><h1 class="logo-wrapper"><a href="index.php" class="brand-logo darken-1"><img src="images/materialize-logo.png" alt="logo"></a> <span class="logo-text">Logo</span></h1></li>
                     </ul>
                     <ul class="right hide-on-med-and-down">                        
-                        <li><a href="#" class="waves-effect waves-block waves-light"><i class="mdi-editor-attach-money"><?php echo $balance;?></i></a>
+                        <li><a href="#" class="waves-effect waves-block waves-light"><i class="mdi-editor-attach-money"><?php echo "Balance: ".$balance;?></i></a>
                         </li>
                     </ul>					
                 </div>
@@ -206,22 +206,24 @@ include 'includes/wallet.php';
                     <thead>
                       <tr>
                         <th>Name</th>
-                        <th>Image</th>
-                        <th>Item Price/Piece</th>
+                        <!--<th>Image</th>-->
+                        <th>Item Price/Piece (USD)</th>
                         <th>Quantity</th>
                       </tr>
                     </thead>
 
                     <tbody>
-				<?php
+                    <!--<td><img src="data:image/jpeg;base64,'.base64_encode($row['image']).'" id="'.$row["id"].'_image" name="'.$row['id'].'_image" type="file" data-error=".errorTxt'.$row["id"].'"></td>*/-->
+				
+				<?php 
 				$result = mysqli_query($con, "SELECT * FROM items where not deleted;");
 				while($row = mysqli_fetch_array($result))
-				{
-					echo '<tr><td>'.$row["name"].'</td><td><img src="data:image/jpeg;base64,'.base64_encode($row['image']).'" id="'.$row["id"].'_image" name="'.$row['id'].'_image" type="file" data-error=".errorTxt'.$row["id"].'"></td><td>'.$row["price"].'</td>';                      
+				{ 
+					echo '<tr><td>'.$row["name"].'</td><td>'.(0.6*($row["price"])).'</td>';                      
 					echo '<td><div class="input-field col s12"><label for='.$row["id"].' class="">Quantity</label>';
 					echo '<input id="'.$row["id"].'" name="'.$row['id'].'" type="text" data-error=".errorTxt'.$row["id"].'"><div class="errorTxt'.$row["id"].'"></div></td></tr>';
 				}
-				?>
+        ?>
                     </tbody>
 </table>
               </div>
@@ -259,8 +261,8 @@ include 'includes/wallet.php';
   <footer class="page-footer">
     <div class="footer-copyright">
       <div class="container">
-        <span>Copyright © 2017 <a class="grey-text text-lighten-4" href="#" target="_blank">Students</a> All rights reserved.</span>
-        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="#">Students</a></span>
+        <span>Copyright © 2017 <a class="grey-text text-lighten-4" href="#" target="_blank"></a> All rights reserved.</span>
+        <span class="right">  <a class="grey-text text-lighten-4" href="#"></a></span>
         </div>
     </div>
   </footer>
@@ -313,7 +315,7 @@ include 'includes/wallet.php';
 			{  
 				echo $row["id"].':{
 				min: "Minimum 0",
-				max: "Maximum 10"
+				max: "Error 1101: Orderquantity_Over_10_exception"
 				},
 				';
 			}
