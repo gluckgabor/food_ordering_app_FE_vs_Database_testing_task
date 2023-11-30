@@ -22,6 +22,7 @@ milyen értékben rendeltek a vevők összesen?
 
 Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
 <br>
+<br><br>
 <br>
 Kövessük az alábbi angol nyelvű leírást a feladat előkészítéséhez, majd a lépések alatt találunk egy User Story-t, melyet fel kell dolgozunk a feladatok megoldásához.
 
