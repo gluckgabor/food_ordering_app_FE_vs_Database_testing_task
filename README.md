@@ -42,7 +42,9 @@ If the test is successful, click "Finish."
 <br>
 ***
 <br>
+
 # User Story title: Food order process
+
 
 Agile sentence: As a User, I would like to be able to order food, So as to have a wonderful customer experience
 
@@ -76,6 +78,9 @@ A front-enden kapott adatokat vessük össze az adatbázisban található érté
 
 # "C" feladat: 
 Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
