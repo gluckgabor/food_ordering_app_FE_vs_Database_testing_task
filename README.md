@@ -1,14 +1,25 @@
 # Parallel Testing of Front-end and Database (with Food Ordering Web App)
 
-# "A" feladat: 
-Végezzünk el az előkészítő lépéseket, majd végezzünk felfedező tesztelést (exploratory testing) a leírásban letölthető weboldalon saját helyi gépünkön és találjunk minél több hibát. 
+# "A" feladat:   
+
+Végezzünk felfedező tesztelést (exploratory testing) és találjunk minél több hibát. 
 A front-enden kapott adatokat vessük össze az adatbázisban található értékekkel. 
 Írjuk meg a megfelelő SQL lekérdezéseket, amelyek alátámasztják a talált hibákat.
 
-# "B" feladat: 
+# "B" feladat:  
+
+Írjunk lekérdezést, amellyel ki tudjuk mutatni, hogy:
+melyik a legkevesebb darabszámú, de legnagyobb összegű megrendelés?
+melyik vevő rendelte a legnagyobb értékű rendelést?
+milyen értékben rendeltek a vevők összesen?
+
+
+#  "C" feladat:   
+
 Írjunk (dokumentáljunk) pozitív és negatív teszteseteket (script based testing) is a fenti user story-ra és találjunk minél több hibát. (Legalább ötöt.)
 
-# "C" feladat: 
+# "D" feladat:   
+
 Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
 
 Kövessük az alábbi angol nyelvű leírást a feladat előkészítéséhez, majd a lépések alatt találunk egy User Story-t, melyet fel kell dolgozunk a feladatok megoldásához.
