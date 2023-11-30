@@ -8,10 +8,10 @@ A front-enden kapott adatokat vessük össze az adatbázisban található érté
 
 # "B" feladat:  
 
-Írjunk lekérdezést, amellyel ki tudjuk mutatni, hogy:
-melyik a legkevesebb darabszámú, de legnagyobb összegű megrendelés?
-melyik vevő rendelte a legnagyobb értékű rendelést?
-milyen értékben rendeltek a vevők összesen?
+Írjunk lekérdezést, amellyel ki tudjuk mutatni, hogy:  
+melyik a legkevesebb darabszámú, de legnagyobb összegű megrendelés?  
+melyik vevő rendelte a legnagyobb értékű rendelést?  
+milyen értékben rendeltek a vevők összesen?  
 
 
 #  "C" feladat:   
