@@ -1,5 +1,18 @@
 # Parallel Testing of Front-end and Database (with Food Ordering Web App)
 
+# "A" feladat: 
+Végezzünk el az előkészítő lépéseket, majd végezzünk felfedező tesztelést (exploratory testing) a leírásban letölthető weboldalon saját helyi gépünkön és találjunk minél több hibát. 
+A front-enden kapott adatokat vessük össze az adatbázisban található értékekkel. 
+Írjuk meg a megfelelő SQL lekérdezéseket, amelyek alátámasztják a talált hibákat.
+
+# "B" feladat: 
+Írjunk (dokumentáljunk) pozitív és negatív teszteseteket (script based testing) is a fenti user story-ra és találjunk minél több hibát. (Legalább ötöt.)
+
+# "C" feladat: 
+Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
+
+Kövessük az alábbi angol nyelvű leírást a feladat előkészítéséhez, majd a lépések alatt találunk egy User Story-t, melyet fel kell dolgozunk a feladatok megoldásához.
+
 1. Clone git repo https://github.com/kaushikjadhav01/Online-Food-Ordering-Web-App.git
 2. Download and install XAMPP https://www.apachefriends.org/download.html or https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-windows-x64-8.2.12-0-VS16-installer.exe/download
 3. Download and install DBeaver https://dbeaver.io/download/
@@ -45,7 +58,6 @@ If the test is successful, click "Finish."
 
 # User Story title: Food order process
 
-
 Agile sentence: As a User, I would like to be able to order food, So as to have a wonderful customer experience
 
 Current userstory is to describe some of the requirements regarding the order and order details pages in order to implement the full food order process.
@@ -69,17 +81,6 @@ A rendelhető ételek és áraik az alábbiak legyenek:
 
 4. A place order oldalon a Total mezőben az egyes rendelt tételek darabár * mennyiség eredményének (részösszegek) összege kell megjelenjen.
 5. 10%-os kedvezmény jár 50 usd feletti megrendelés esetén. 100 usd feletti megrendelés esetén 20% kezdvezmény jár.
-
-# "A" feladat: 
-Végezzünk felfedező tesztelést (exploratory testing) és találjunk minél több hibát. 
-A front-enden kapott adatokat vessük össze az adatbázisban található értékekkel. 
-Írjuk meg a megfelelő SQL lekérdezéseket, amelyek alátámasztják a talált hibákat.
-
-# "B" feladat: 
-Írjunk (dokumentáljunk) pozitív és negatív teszteseteket (script based testing) is a fenti user story-ra és találjunk minél több hibát. (Legalább ötöt.)
-
-# "C" feladat: 
-Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
 <br>
 <br>
 <br>
