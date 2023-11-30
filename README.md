@@ -61,11 +61,11 @@ Azaz követelmények, elfogadási feltételek az order és place-order oldalhoz,
 A rendelhető ételek és áraik az alábbiak legyenek:  
 | Étel | Ár (USD) |
 |----------|----------|
-| Baked Potato Jackets | 10 USD   |
-|Mexican Taco |30 USD  |
-|Quesadillas Acapulco|39 USD  |
-|Tex Mex Chicken|25 USD  |
-|Thai Chicken Chilly|39 USD  |
+| Baked Potato Jackets | 10    |
+|Mexican Taco |30   |
+|Quesadillas Acapulco|39   |
+|Tex Mex Chicken|25   |
+|Thai Chicken Chilly|39   |
 
 4. A place order oldalon a Total mezőben az egyes rendelt tételek darabár * mennyiség eredményének (részösszegek) összege kell megjelenjen.
 5. 10%-os kedvezmény jár 50 usd feletti megrendelés esetén. 100 usd feletti megrendelés esetén 20% kezdvezmény jár.
