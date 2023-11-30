@@ -44,7 +44,7 @@ Agile sentence: As a User, I would like to be able to order food, So as to have 
 
 Current userstory is to describe some of the requirements regarding the order and order details pages in order to implement the full food order process.
 
-#Acceptance Criterias (ACs)
+# Acceptance Criterias (ACs)
 Azaz követelmények, elfogadási feltételek az order és place-order oldalhoz, ezeket (is) "kapta\kapja" meg a fejlesztő is. Jó esetben mind maradéktalanul teljesülnek :)
 
 1. Az order képernyő jobb felső sarokban jelenjen meg a wallet-detail tábla megfelelő rekordjából a felhasználó egyenlege a balance field-ből.
@@ -61,14 +61,14 @@ Thai Chicken Chilly 39 USD
 4. A place order oldalon a Total mezőben az egyes rendelt tételek darabár * mennyiség eredményének (részösszegek) összege kell megjelenjen.
 5. 10%-os kedvezmény jár 50 usd feletti megrendelés esetén. 100 usd feletti megrendelés esetén 20% kezdvezmény jár.
 
-"A" feladat: 
+# "A" feladat: 
 Végezzünk felfedező tesztelést (exploratory testing) és találjunk minél több hibát. 
 A front-enden kapott adatokat vessük össze az adatbázisban található értékekkel. 
 Írjuk meg a megfelelő SQL lekérdezéseket, amelyek alátámasztják a talált hibákat.
 
-"B" feladat: Írjunk (dokumentáljunk) pozitív és negatív teszteseteket (script based testing) is a fenti user story-ra és találjunk minél több hibát. (Legalább ötöt.)
+# "B" feladat: Írjunk (dokumentáljunk) pozitív és negatív teszteseteket (script based testing) is a fenti user story-ra és találjunk minél több hibát. (Legalább ötöt.)
 
-"C" feladat: Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
+# "C" feladat: Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
 <br>
 <br>
 <br>
