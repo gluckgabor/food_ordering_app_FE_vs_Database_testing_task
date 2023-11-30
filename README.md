@@ -38,11 +38,15 @@ Click "Test Connection" to ensure that the connection details are correct.
 If the test is successful, click "Finish."
 
 11. Open your web browser and check if you got the website running on your localhost (http://localhost:8080/www/)
-
-#User Story title: Food order process
+<br>
+<br>
+***
+<br>
+# User Story title: Food order process
 Agile sentence: As a User, I would like to be able to order food, So as to have a wonderful customer experience
 
 Current userstory is to describe some of the requirements regarding the order and order details pages in order to implement the full food order process.
+<br>
 
 # Acceptance Criterias (ACs)
 Azaz követelmények, elfogadási feltételek az order és place-order oldalhoz, ezeket (is) "kapta\kapja" meg a fejlesztő is. Jó esetben mind maradéktalanul teljesülnek :)
