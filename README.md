@@ -58,12 +58,12 @@ Azaz követelmények, elfogadási feltételek az order és place-order oldalhoz,
 2. A rendelni kívánt mennyiség lehetséges felvehető értéktartománya 0-10. Amennyiben a felhasználó rossz értéket ad meg, emberi nyelven értelmes, kultúrált validációs üzenetet jelenítsen meg az oldal. (Error, hibasorszám, exception és '_', azaz alulvonás nem lehet a validációs üzenetben, mert az azt jelenti, hogy nem végfelhasználónak szánt validációs üzenet jelent meg.)
 3. Az order oldalon az 'Item Price/Piece' oszlopban az item-ek ára az items tábla price oszlopából kell, h jöjjön, azonos értéknek kell megjelenni darabárként itt a felületen.
 
-A rendelhető ételek és áraik az alábbiak legyenek:
-Baked Potato Jackets 10 USD  
-Mexican Taco 30 USD  
-Quesadillas Acapulco 39 USD  
-Tex Mex Chicken 25 USD  
-Thai Chicken Chilly 39 USD  
+A rendelhető ételek és áraik az alábbiak legyenek:  
+Baked Potato Jackets&nbsp;&nbsp;10 USD  
+Mexican Taco&nbsp;&nbsp;&nbsp;30 USD  
+Quesadillas Acapulco&nbsp;&nbsp;&nbsp;39 USD  
+Tex Mex Chicken&nbsp;&nbsp;&nbsp;25 USD  
+Thai Chicken Chilly&nbsp;&nbsp;&nbsp;39 USD  
 
 4. A place order oldalon a Total mezőben az egyes rendelt tételek darabár * mennyiség eredményének (részösszegek) összege kell megjelenjen.
 5. 10%-os kedvezmény jár 50 usd feletti megrendelés esetén. 100 usd feletti megrendelés esetén 20% kezdvezmény jár.
