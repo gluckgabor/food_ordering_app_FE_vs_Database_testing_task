@@ -19,7 +19,8 @@ milyen értékben rendeltek a vevők összesen?
 Írjunk (dokumentáljunk) pozitív és negatív teszteseteket (script based testing) is a fenti user story-ra és találjunk minél több hibát. (Legalább ötöt.)
 
 # "D" feladat:   
-
+<br>
+<br>
 Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
 
 Kövessük az alábbi angol nyelvű leírást a feladat előkészítéséhez, majd a lépések alatt találunk egy User Story-t, melyet fel kell dolgozunk a feladatok megoldásához.
