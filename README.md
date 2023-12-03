@@ -26,7 +26,7 @@ milyen értékben rendeltek a vevők összesen?
 <br>
 Kövessük az alábbi angol nyelvű leírást a feladat előkészítéséhez, majd a lépések alatt találunk egy User Story-t, melyet fel kell dolgozunk a feladatok megoldásához.
 
-1. Clone git repo from https://github.com/kaushikjadhav01/Online-Food-Ordering-Web-App.git or or download ZIP file from same link at green dropdown button.
+1. Clone git repo from https://github.com/gluckgabor/food_ordering_app_FE_vs_Database_testing_task or download ZIP file from same link at green dropdown button.
 2. Download and install XAMPP https://www.apachefriends.org/download.html or https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-windows-x64-8.2.12-0-VS16-installer.exe/download
 3. Download and install DBeaver https://dbeaver.io/download/
 4. In xampp console (lower right corner in Windows, on taskbar) start apache, start mysql
