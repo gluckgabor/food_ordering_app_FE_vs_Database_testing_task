@@ -36,7 +36,7 @@ Kövessük az alábbi angol nyelvű leírást a feladat előkészítéséhez, ma
 8. Open your web browser and check if you got the website running on your localhost (http://localhost/www/ or http://localhost:8080/www/)
 
 9. Launch DBeaver on your machine.
-
+<p>
 Create a New Connection:
 
 Click on "Database" in the top menu.
@@ -57,7 +57,7 @@ Test the Connection:
 
 Click "Test Connection" to ensure that the connection details are correct.
 If the test is successful, click "Finish."
-
+</p>
 10. Open your web browser and check if you got the website running on your localhost (http://localhost:8080/www/)
 <br>
 <br>
