@@ -36,28 +36,25 @@ Kövessük az alábbi angol nyelvű leírást a feladat előkészítéséhez, ma
 8. Open your web browser and check if you got the website running on your localhost (http://localhost/www/ or http://localhost:8080/www/)
 
 9. Launch DBeaver on your machine.
-<p style="text-indent: 125px;">
-Create a New Connection:
 
-Click on "Database" in the top menu.
-Choose "New Database Connection."
-Select MySQL:
+    Create a New Connection:
 
-In the "Select a driver" window, choose "MySQL" from the list.
-Click "Next."
-Configure Connection Settings:
+    Click on "Database" in the top menu.
+    Choose "New Database Connection."
+    Select MySQL:
 
-Fill in the connection details:
-Host: The server where your MySQL database is running. It could be something like localhost or an IP address.
-Port: The port number on which MySQL is running (usually 3306 by default).
-Database: The name of the MySQL database you want to connect to.
-User and Password: Your MySQL database username and password.
-Click "Next."
-Test the Connection:
+    In the "Select a driver" window, choose "MySQL" from the list.
+    Click "Next."
+    Configure Connection Settings:
 
-Click "Test Connection" to ensure that the connection details are correct.
-If the test is successful, click "Finish."
-</p>
+    Fill in the connection details:
+    Host: The server where your MySQL database is running. It could be something like localhost or an IP address.
+    Port: The port number on which MySQL is running (usually 3306 by default).
+    Database: The name of the MySQL database you want to connect to.
+    User and Password: Your MySQL database username and password.
+    Click "Next, then click "Test Connection" to ensure that the connection details are correct.
+    If the test is successful, click "Finish."
+
 10. Open your web browser and check if you got the website running on your localhost (http://localhost:8080/www/)
 <br>
 <br>
