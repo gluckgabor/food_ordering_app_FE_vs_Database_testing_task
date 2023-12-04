@@ -26,18 +26,16 @@ milyen értékben rendeltek a vevők összesen?
 <br>
 Kövessük az alábbi angol nyelvű leírást a feladat előkészítéséhez, majd a lépések alatt találunk egy User Story-t, melyet fel kell dolgozunk a feladatok megoldásához.
 
-1. Clone git repo from https://github.com/gluckgabor/food_ordering_app_FE_vs_Database_testing_task or download ZIP file from same link at green dropdown button.
+1. Download ZIP file from https://github.com/gluckgabor/food_ordering_app_FE_vs_Database_testing_task by clicking green dropdown button, then  menu item 'Download ZIP'.
 2. Download and install XAMPP https://www.apachefriends.org/download.html or https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-windows-x64-8.2.12-0-VS16-installer.exe/download
 3. Download and install DBeaver https://dbeaver.io/download/
-4. In xampp console (lower right corner in Windows, on taskbar) start apache, start mysql
+4. In xampp console (lower right corner in Windows, on taskbar) start Apache, start Mysql.
 5. Navigate to C:\xampp\htdocs and create a www folder and copy the cloned repo (similar path like C:\Users\YOURNAME\FE_SQL_Testing\Online-Food-Ordering-Web-App or where you cloned repo) to there
-6. Start XAMMP. Start Apache and SQL server.
-7. Navigate in browser: http://localhost/phpmyadmin/ and there create a new database named 'food' by clicking New on the upper left corner.
-8. Click on 'Import' option in the top menu and browse
-9. Open your web browser and check if you got the website running on your localhost (http://localhost:8080/www/ or http://localhost/www/)
+6. Navigate in browser: http://localhost/phpmyadmin/ and there create a new database named 'food' by clicking New on the upper left corner.
+7. Click on 'Import' option in the top menu and browse
+8. Open your web browser and check if you got the website running on your localhost (http://localhost/www/ or http://localhost:8080/www/)
 
-
-10. Launch DBeaver on your machine.
+9. Launch DBeaver on your machine.
 
 Create a New Connection:
 
@@ -60,7 +58,7 @@ Test the Connection:
 Click "Test Connection" to ensure that the connection details are correct.
 If the test is successful, click "Finish."
 
-11. Open your web browser and check if you got the website running on your localhost (http://localhost:8080/www/)
+10. Open your web browser and check if you got the website running on your localhost (http://localhost:8080/www/)
 <br>
 <br>
 ***
