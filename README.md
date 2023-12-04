@@ -36,7 +36,7 @@ Kövessük az alábbi angol nyelvű leírást a feladat előkészítéséhez, ma
 8. Open your web browser and check if you got the website running on your localhost (http://localhost/www/ or http://localhost:8080/www/)
 
 9. Launch DBeaver on your machine.
-<p style="text-indent: 25px;">
+<p style="text-indent: 125px;">
 Create a New Connection:
 
 Click on "Database" in the top menu.
