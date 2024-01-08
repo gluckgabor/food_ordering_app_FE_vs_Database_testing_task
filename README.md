@@ -8,11 +8,11 @@ A front-enden kapott adatokat vessük össze az adatbázisban található érté
 
 # "B" feladat:  
 
-Írjunk lekérdezést, amellyel ki tudjuk mutatni, hogy: 
-melyik a legnagyobb összegű megrendelés az order_details táblából vett rendelési mennyiségek és egységárat összege alapján?
-az order_details táblából vett rendelési mennyiségek és egységárat összege alapján melyik a legnagyobb összegű megrendelés, amelynek státusa az order táblában "Yet to be delivered"? 
-melyik vevő rendelte a legnagyobb értékű rendelést?  
-milyen értékben rendeltek a vevők összesen?  
+Írjunk lekérdezést, amellyel ki tudjuk mutatni, hogy: <br>
+melyik a legnagyobb összegű megrendelés az order_details táblából vett rendelési mennyiségek és egységárat összege alapján?<br>
+az order_details táblából vett rendelési mennyiségek és egységárat összege alapján melyik a legnagyobb összegű megrendelés, amelynek státusa az order táblában "Yet to be delivered"? <br>
+melyik vevő rendelte a legnagyobb értékű rendelést?  <br>
+milyen értékben rendeltek a vevők összesen?  <br>
 
 
 #  "C" feladat:   
