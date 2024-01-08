@@ -24,7 +24,8 @@ milyen értékben rendeltek a vevők összesen?
 <br>
 <br><br>
 <br>
-Kövessük az alábbi angol nyelvű leírást a feladat előkészítéséhez, majd a lépések alatt találunk egy User Story-t, melyet fel kell dolgozunk a feladatok megoldásához.
+
+# Kövessük az alábbi angol nyelvű leírást a feladat előkészítéséhez, majd a lépések alatt találunk egy User Story-t, melyet fel kell dolgozunk a feladatok megoldásához.
 
 1. Download ZIP file from https://github.com/gluckgabor/food_ordering_app_FE_vs_Database_testing_task by clicking green dropdown button, then  menu item 'Download ZIP'.
 2. Download and install XAMPP https://www.apachefriends.org/download.html or https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-windows-x64-8.2.12-0-VS16-installer.exe/download
