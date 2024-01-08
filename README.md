@@ -2,7 +2,7 @@
 
 # "A" feladat:   
 
-Végezzünk felfedező tesztelést (exploratory testing) és találjunk minél több hibát. 
+Végezzünk felfedező tesztelést (exploratory testing) és találjunk minél több hibát, amelyeket dokumentáljunk. 
 A front-enden kapott adatokat vessük össze az adatbázisban található értékekkel. 
 Írjuk meg a megfelelő SQL lekérdezéseket, amelyek alátámasztják a talált hibákat.
 
