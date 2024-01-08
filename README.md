@@ -23,8 +23,6 @@ A front-enden kapott adatokat vessük össze az adatbázisban található érté
 
 Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
 <br>
-<br><br>
-<br>
 
 # "E" feladat:   
 
