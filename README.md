@@ -26,6 +26,13 @@ A front-enden kapott adatokat vessük össze az adatbázisban található érté
 <br><br>
 <br>
 
+# "E" feladat:   
+
+Találjuk meg, hol lett szándékosan elrontva a kód (Visual Studio Code, vagy más fejlesztőkörnyezet (IDE) kell hozzá).
+<br>
+<br><br>
+<br>
+
 # Kövessük az alábbi angol nyelvű leírást a feladatok előkészítéséhez, majd a lépések alatt találunk egy User Story-t, melyet fel kell dolgozunk a feladatok megoldásához.
 
 1. Download ZIP file from https://github.com/gluckgabor/food_ordering_app_FE_vs_Database_testing_task by clicking green dropdown button, then  menu item 'Download ZIP'.
