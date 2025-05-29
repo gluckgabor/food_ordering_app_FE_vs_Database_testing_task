@@ -2,12 +2,30 @@
 
 # "A" feladat:   
 
-Végezzünk felfedező tesztelést (exploratory testing) és találjunk minél több hibát, amelyeket dokumentáljunk. 
+Végezzünk felfedező tesztelést (exploratory testing) és találjunk minél több anomáliát, amelyeket dokumentáljunk. 
+
+# "B" feladat: 
+TODO: User story-kat írni (hibákat elrejteni benne), majd ha ez megvan a diákok vessék össze a funkcióleírásokat, user story-kat a szoftver működésével, ezzel megbizonyosodnak róla, hogy mely felfedezett anomáliák hibák és dokumentálják ezeket a hibákat, illetve jelezzék, amennyiben a dokumentációban hibát vélnek felfedezni.
+
+Írjunk együtt a diákokkal egy teszteseteket a front-endhez a user story alapján. 
+Írjanak a diákok pozitív és negatív teszteseteket teszteseteket a front-endhez a specifikációk alapján. 
+
+# "C" feladat: 
+Futtassák a diákok egymás script-based tesztjeit, azaz írásban rögzített tesztjeit, lássuk, hogy mennyire futtatható teszteket írnak, ezek mennyire eredményesen találnak hibát. (Legalább ötöt.)
+
+# "D" feladat: 
+
+Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
+<br>
+
+# "E" feladat: 
+<br>Adatbázis-felhasználói alapismeretek megszerzése után:
 A front-enden kapott adatokat vessük össze az adatbázisban található értékekkel. 
 Írjuk meg a megfelelő SQL lekérdezéseket, amelyek alátámasztják a talált hibákat.
-
-# "B" feladat:  
-
+<br>
+ 
+# "F" feladat: 
+<br>Adatbázis-felhasználói alapismeretek megszerzése után:
 Írjunk lekérdezést, amellyel ki tudjuk mutatni, hogy: <br>
 - melyik a legnagyobb összegű megrendelés az order_details táblából vett rendelési mennyiségek és egységárak összege alapján?<br>
 - az order_details táblából vett rendelési mennyiségek és egységárat összege alapján melyik a legnagyobb összegű megrendelés, amelynek státusa az order táblában "Yet to be delivered"? <br>
@@ -15,18 +33,9 @@ A front-enden kapott adatokat vessük össze az adatbázisban található érté
 - milyen értékben rendeltek a vevők összesen?  <br>
 
 
-#  "C" feladat:   
+# "G" feladat:   
 
-Írjunk (dokumentáljunk) pozitív és negatív teszteseteket (script based testing) is a fenti user story-ra és találjunk minél több hibát. (Legalább ötöt.)
-
-# "D" feladat:   
-
-Írjunk tesztesetet a kedvezménysávok ekvivalencia partícióira és határértékelemzésére.
-<br>
-
-# "E" feladat:   
-
-Találjuk meg, hol lett szándékosan elrontva a kód (Visual Studio Code, vagy más fejlesztőkörnyezet (IDE) kell hozzá).
+Haladó feladat: Találjuk meg, hol lett szándékosan elrontva a kód (Visual Studio Code, vagy más fejlesztőkörnyezet (IDE) kell hozzá).
 <br>
 <br><br>
 <br>
