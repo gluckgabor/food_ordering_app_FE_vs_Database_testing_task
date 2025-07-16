@@ -33,17 +33,3 @@
   transform-origin: 0 0;
   color: #26a69a;
 }
-
-/* Adjust floating label alignment for better spacing */
-.input-field label {
-  top: -18px !important;
-  font-size: 0.9rem !important;
-}
-
-/* Adjust floating label transform to avoid going too high */
-.input-field input:focus + label,
-.input-field input.valid + label,
-.input-field textarea:focus + label,
-.input-field textarea.valid + label {
-  transform: translateY(-12px) scale(0.9) !important;
-}

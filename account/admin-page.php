@@ -153,7 +153,7 @@ include 'includes/connect.php';
                             </div>
                         </li>
                     </ul>
-                </li>
+                </li>  <!--
                  <li class="no-padding">
                     <ul class="collapsible collapsible-accordion">
                         <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-question-answer"></i> Tickets</a>
@@ -167,7 +167,7 @@ include 'includes/connect.php';
                                     echo '<li><a href="all-tickets.php?status='.$row['status'].'">'.$row['status'].'</a>
                                     </li>';
 									}
-									?>
+									?>-->
                                 </ul>
                             </div>
                         </li>
@@ -214,9 +214,9 @@ include 'includes/connect.php';
 				while($row = mysqli_fetch_array($result))
 				{
 					echo '<tr><td><div class="input-field col s12"><label for="'.$row["id"].'_name">Name</label>';
-					echo '<input value="'.$row["name"].'" id="'.$row["id"].'_name" name="'.$row['id'].'_name" type="text" data-error=".errorTxt'.$row["id"].'"><div class="errorTxt'.$row["id"].'"></div></td>';					
+					echo '<input value="'.$row["name"].'" id="'.$row["id"].'_name" name="'.$row['id'].'_name" type="text" data-error=".errorTxt'.$row["id"].'" class="validate" placeholder=" "><div class="errorTxt'.$row["id"].'"></div></td>';					
 					echo '<td><div class="input-field col s12 "><label for="'.$row["id"].'_price">Price</label>';
-					echo '<input value="'.$row["price"].'" id="'.$row["id"].'_price" name="'.$row['id'].'_price" type="text" data-error=".errorTxt'.$row["id"].'"><div class="errorTxt'.$row["id"].'"></div></td>';                   
+					echo '<input value="'.$row["price"].'" id="'.$row["id"].'_price" name="'.$row['id'].'_price" type="text" data-error=".errorTxt'.$row["id"].'" class="validate" placeholder=" "><div class="errorTxt'.$row["id"].'"></div></td>';                   
 					echo '<td>';
 					if($row['deleted'] == 0){
 						$text1 = 'selected';
@@ -260,13 +260,13 @@ include 'includes/connect.php';
 				<?php
 				
 					echo '<tr><td><div class="input-field col s12"><label for="name">Name</label>';
-					echo '<input id="name" name="name" type="text" data-error=".errorTxt01"><div class="errorTxt01"></div></td>';					
+					echo '<input id="name" name="name" type="text" data-error=".errorTxt01" class="validate" placeholder=" "><div class="errorTxt01"></div></td>';					
 					echo '<td><div class="input-field col s12 "><label for="price" class="">Price</label>';
-					echo '<input id="price" name="price" type="text" data-error=".errorTxt02"><div class="errorTxt02"></div></td>';
+					echo '<input id="price" name="price" type="text" data-error=".errorTxt02" class="validate" placeholder=" "><div class="errorTxt02"></div></td>';
 
 					echo '<td><div class="input-field col s12 ">';
 					echo '
-					<input type="file" id="image" name="image" data-error=".errorTxt01"><div class="errorTxt01"></div></td>';                   
+					<input type="file" id="image" name="image" data-error=".errorTxt01" class="validate" placeholder=" "><div class="errorTxt01"></div></td>';                   
 					echo '<td></tr>';
 				?>
                     </tbody>
@@ -359,7 +359,7 @@ include 'includes/connect.php';
 			{  
 				echo $row["id"].'_name:{
 				required: "Ener item name",
-				minlength: "Minimum length is 5 characters",
+				minlength: "Minimum length is 6 characters",
 				maxlength: "Maximum length is 20 characters"
 				},';
 				echo $row["id"].'_price:{
@@ -395,7 +395,7 @@ include 'includes/connect.php';
         messages: {
 		name: {
 				required: "Enter item name",
-				minlength: "Minimum length is 5 characters"
+				minlength: "Minimum length is 6 characters"
 			},
 		 price: {
 				required: "Enter item price",
@@ -413,7 +413,16 @@ include 'includes/connect.php';
         }
      });
     </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    if (typeof M !== 'undefined' && M.updateTextFields) {
+        M.updateTextFields();
+    }
+});
+</script>
 </body>
+
 
 </html>
 <?php
