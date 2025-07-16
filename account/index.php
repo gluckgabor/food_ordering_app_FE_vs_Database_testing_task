@@ -137,7 +137,7 @@ include 'includes/wallet.php';
             </div>
             </li>
             <li class="bold active"><a href="index.php" class="waves-effect waves-cyan"><i class="mdi-editor-border-color"></i> Order Food</a>
-            </li>
+            </li> <!--
                 <li class="no-padding">
                     <ul class="collapsible collapsible-accordion">
                         <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-editor-insert-invitation"></i> Orders</a>
@@ -156,7 +156,7 @@ include 'includes/wallet.php';
                             </div>
                         </li>
                     </ul>
-                </li>  <!--
+                </li>  --><!--
                 <li class="no-padding">
                     <ul class="collapsible collapsible-accordion">
                         <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-question-answer"></i> Tickets</a>
