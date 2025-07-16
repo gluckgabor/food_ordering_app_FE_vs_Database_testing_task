@@ -5,10 +5,9 @@
 Végezzünk felfedező tesztelést (exploratory testing) és találjunk minél több anomáliát, amelyeket dokumentáljunk. 
 
 # "B" feladat: 
-A diákok vessék össze a funkcióleírásokat, user story-kat a szoftver működésével, ezzel megbizonyosodnak róla, hogy mely felfedezett anomáliák hibák és dokumentálják ezeket a hibákat, illetve jelezzék, amennyiben a dokumentációban hibát vélnek felfedezni.
+Vessük össze a funkcióleírásokat, user story-kat a szoftver működésével, ezzel megbizonyosodnak róla, hogy mely felfedezett anomáliák hibák és dokumentálják ezeket a hibákat, illetve jelezzék, amennyiben a dokumentációban hibát vélnek felfedezni.
 
-Írjunk együtt a diákokkal egy teszteseteket a front-endhez a user story alapján. 
-Írjanak a diákok pozitív és negatív teszteseteket teszteseteket a front-endhez a specifikációk alapján. 
+Írjunk pozitív és negatív teszteseteket teszteseteket a front-endhez a specifikációk, user-story-k alapján. 
 
 # "C" feladat: 
 Futtassák a diákok egymás script-based tesztjeit, azaz írásban rögzített tesztjeit, lássuk, hogy mennyire futtatható teszteket írnak, ezek mennyire eredményesen találnak hibát. (Legalább ötöt.)
