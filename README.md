@@ -5,7 +5,7 @@
 Végezzünk felfedező tesztelést (exploratory testing) és találjunk minél több anomáliát, amelyeket dokumentáljunk. 
 
 # "B" feladat: 
-Vessük össze a funkcióleírásokat, user story-kat a szoftver működésével, ezzel megbizonyosodnak róla, hogy mely felfedezett anomáliák hibák és dokumentálják ezeket a hibákat, illetve jelezzék, amennyiben a dokumentációban hibát vélnek felfedezni.
+Vessük össze a funkcióleírásokat, user story-kat a szoftver működésével, ezzel megbizonyosodunk róla, hogy mely felfedezett anomáliák hibák és dokumentáljuk ezeket a hibákat, illetve jelezzük, amennyiben a dokumentációban hibát vélünk felfedezni.
 
 Írjunk pozitív és negatív teszteseteket teszteseteket a front-endhez a specifikációk, user-story-k alapján. 
 
