@@ -47,7 +47,7 @@ Haladó feladat: Találjuk meg, hol lett szándékosan elrontva a kód (Visual S
 4. In xampp console (lower right corner in Windows, on taskbar) start Apache, start Mysql.
 5. Navigate to C:\xampp\htdocs and create a www folder and copy the cloned repo (similar path like C:\Users\YOURNAME\FE_SQL_Testing\Online-Food-Ordering-Web-App or where you cloned repo) to there
 6. Navigate in browser: http://localhost/phpmyadmin/ and there create a new database named 'food' by clicking New on the upper left corner.
-7. Click on 'Import' option in the top menu and browse
+7. Click on 'Import' option in the top menu and browse the food.sql file from the downloaded repo.
 8. Open your web browser and check if you got the website running on your localhost (http://localhost/www/ or http://localhost:8080/www/)
 
 9. Launch DBeaver on your machine.
