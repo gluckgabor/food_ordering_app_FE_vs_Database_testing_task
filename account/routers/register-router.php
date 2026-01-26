@@ -3,7 +3,7 @@ include '../includes/connect.php';
 $name = htmlspecialchars($_POST['name']);
 $username = htmlspecialchars($_POST['username']);
 $password = htmlspecialchars($_POST['password']);
-$phone = $_POST['phone'];
+$phone = !empty($_POST['phone']) ? $_POST['phone'] : 0;
 
 function number($length) {
     $result = '';
