@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(powershell -Command \"Get-Content ''C:\\\\Users\\\\gluck\\\\FE_SQL_Testing\\\\Online-Food-Ordering-Web-App\\\\food.sql'' -TotalCount 100\")",
+      "Bash(powershell -Command \"Select-String -Path ''C:\\\\Users\\\\gluck\\\\FE_SQL_Testing\\\\Online-Food-Ordering-Web-App\\\\food.sql'' -Pattern ''INSERT INTO \\\\`items\\\\`'' | ForEach-Object { $_Line.Substring\\(0, [Math]::Min\\(200, $_Line.Length\\)\\) }\")",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(copy \"C:\\\\Users\\\\gluck\\\\FE_SQL_Testing\\\\Online-Food-Ordering-Web-App\\\\index.php\" \"C:\\\\xampp\\\\htdocs\\\\www\\\\food_ordering_app_FE_vs_Database_testing_task\\\\index.php\")"
+    ]
+  }
+}
